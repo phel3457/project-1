@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = /path/to/python3.7, kivy, pillow, opencv-python-headless, pyzbar
+requirements = python==3.11.4, kivy==2.2.1, pillow, opencv-python-headless, pyzbar
 
 
 # (str) Custom source folders for requirements
@@ -65,10 +65,10 @@ orientation = portrait
 # author = © Copyright Info
 
 # change the major version of python used by the app
-osx.python_version = 3.7.6
+osx.python_version = 3.11.4
 
 # Kivy version to use
-osx.kivy_version = 1.9.1
+osx.kivy_version = 2.2.1
 
 #
 # Android specific
